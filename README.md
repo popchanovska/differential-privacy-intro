@@ -28,7 +28,7 @@ The four data sanitization operations used when publishing data: generalization,
 The three anonymity models built on one recursive-partitioning engine: k-anonymity, l-diversity and t-closeness.
 
 ### `task-NEW-pydp_notebook.ipynb`
-A practical comparison using OpenMined's PyDP library. Each simple question is answered twice, once without privacy (the true value) and once with differential privacy, to show the effect of the privacy budget.
+A practical comparison using **OpenMined's PyDP library**. Each simple question is answered twice, once without privacy (the true value) and once with differential privacy, to show the effect of the privacy budget.
 
 ## How the notebooks are organised
 
