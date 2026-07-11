@@ -6,29 +6,30 @@ Each notebook takes one technique from the book, explains it and then applies it
 
 ## Notebooks
 
-### `task-1-dp-mechanisms.ipynb`
-The three core differential privacy mechanisms: the binary (randomized response) mechanism, the Laplace mechanism, and the exponential mechanism. Each one is built from scratch and applied to the column type that fits it (binary, numerical, and categorical) on the Titanic dataset.
 
-### `task-2-differential-privacy-methods.ipynb`
-Differentially private machine learning models: naive Bayes, logistic regression, linear regression and k-means clustering. Uses the `diffprivlib` library on a lifestyle and health-risk dataset.
+- **`task-1-dp-mechanisms.ipynb`**
+  The three core differential privacy mechanisms: the binary (randomized response) mechanism, the Laplace mechanism, and the exponential mechanism. Each one is built from scratch and applied to the column type that fits it (binary, numerical, and categorical) on the Titanic dataset.
 
-### `task-3_1-randomized-response.ipynb`
-Local differential privacy for a simple yes/no question, using the randomized response mechanism on a student GenAI-usage survey.
+- **`task-2-differential-privacy-methods.ipynb`**
+  Differentially private machine learning models: naive Bayes, logistic regression, linear regression and k-means clustering. Uses the `diffprivlib` library on a lifestyle and health-risk dataset.
 
-### `task-3_2-direct-encoding-ldp.ipynb`
-Local differential privacy for categorical answers with more than two options, using direct encoding with its encode, perturb, and estimate steps.
+- **`task-3.1-randomized-response.ipynb`**
+  Local differential privacy for a simple yes/no question, using the randomized response mechanism on a student GenAI-usage survey.
 
-### `task-3_3-histogram-encoding-ldp.ipynb`
-Local differential privacy for numerical and continuous data, using histogram encoding with the SHE and THE estimation methods.
+- **`task-3.2-direct-encoding-ldp.ipynb`**
+  Local differential privacy for categorical answers with more than two options, using direct encoding with its encode, perturb, and estimate steps.
 
-### `task-4_1-data-sanitization.ipynb`
-The four data sanitization operations used when publishing data: generalization, suppression, perturbation and anatomization, each mapped to the right columns of a medical dataset.
+- **`task-3.3-histogram-encoding-ldp.ipynb`**
+  Local differential privacy for numerical and continuous data, using histogram encoding with the SHE and THE estimation methods.
 
-### `task-4_2-anonymity.ipynb`
-The three anonymity models built on one recursive-partitioning engine: k-anonymity, l-diversity and t-closeness.
+- **`task-4.1-data-sanitization.ipynb`**
+  The four data sanitization operations used when publishing data: generalization, suppression, perturbation and anatomization, each mapped to the right columns of a medical dataset.
 
-### `task-NEW-pydp_notebook.ipynb`
-A practical comparison using **OpenMined's PyDP library**. Each simple question is answered twice, once without privacy (the true value) and once with differential privacy, to show the effect of the privacy budget.
+- **`task-4.2-anonymity.ipynb`**
+  The three anonymity models built on one recursive-partitioning engine: k-anonymity, l-diversity and t-closeness.
+
+- **`task-NEW-pydp_notebook.ipynb`**
+  A practical comparison using **OpenMined's PyDP library**. Each simple question is answered twice, once without privacy (the true value) and once with differential privacy, to show the effect of the privacy budget.
 
 ## How the notebooks are organised
 
